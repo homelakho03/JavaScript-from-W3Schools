@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Variables</h1>
+
+<p>In this example, x, y, and z are variables.</p>
+
+<p id="demo"></p>
+
+<!-- <script>
+    // undeclared variables these are declared when first used
+    x = 5;
+    y = 6;
+    z = x + y;
+    document.getElementById("demo").innerHTML =
+    "The value of z is: " + z;
+</script> -->
+    
+<!-- <script>
+// declaring variables using var
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " + z;
+</script> -->
+
+<!-- <script>
+    // declaring variables using let
+    let x = 5;
+    let y = 8;
+    let z = x + y;
+    document.getElementById("demo").innerHTML =
+    "The value of z is: " + z;
+</script> -->
+
+<!-- <script>
+    // using const the the variable cannot be reassigned
+    const x = 9;
+    const y = 6;
+    const z = x + y;
+    document.getElementById("demo").innerHTML =
+    "The value of z is: " + z;
+</script> -->
+
+<!-- <script>
+    // mixed const and let
+    const price1 = 3;
+    const price2 = 6;
+    let total = price1 + price2;
+    document.getElementById("demo").innerHTML =
+    "The total is: " + total;
+</script> -->
+
+<!-- <script>
+    // strings can also be stored in the variables
+    const pi = 3.14;
+    let person = "John Doe";
+    let answer = 'Yes I am!';
+    
+    document.getElementById("demo").innerHTML =
+    pi + "<br>" + person + "<br>" + answer;
+</script> -->
+
+<!-- <script>
+    // more examples
+    let carName = "Volvo";
+    document.getElementById("demo").innerHTML = carName;
+</script> -->
+    
+<!-- <script>
+    // variable declaration in one statement example
+    let person = "John Doe", carName = "Volvo", price = 200;
+    document.getElementById("demo").innerHTML = 
+    person  + "'s car is: <br>" + carName + " and price is: " + price;
+</script>     -->
+
+<!-- <script>
+    // single statement multiline declaration
+    let person = "John Doe",
+    carName = "Volvo",
+    price = 200;
+    document.getElementById("demo").innerHTML = carName;
+</script> -->
+
+<!-- <script>
+    // the value of an undefined variable
+    let carName;
+    document.getElementById("demo").innerHTML =
+    "a variable without value has the value of: " + carName;
+</script> -->
+
+<!-- <script>
+    // the variable declared with var can be re-declared
+    // it will not loose it's value
+    var carName = "Volvo";
+    var carName;
+    document.getElementById("demo").innerHTML = carName;
+</script> -->
+
+<!-- <script>
+    // the variable declared with let can be re-declared
+    // it will not loose it's value
+    let carName = "Volvo"; 
+    let carName; //this will not work
+    document.getElementById("demo").innerHTML = carName;
+</script> -->
+
+<script>
+    // some more use cases and examples
+    let x = 5 + 2 + 3;
+    let y = "john" + " " + "doe";
+    let z = "5" + 2 + 3; // 2 and 3 are also concatinated
+    let a = 2 + 3 + "5"; // here 2 and 3 are not concatinated
+    // valid variable names 
+    // the identifiers containing $
+    let $ = "Hellow World";
+    let $$$ = 2;
+    let $myMoney = 5;
+    // the identifiers containing __underscore
+    let _lastName = "Johnson";
+    let _x = 2;
+    let _100 = 5;
+
+    
+    document.getElementById("demo").innerHTML =
+    //
+    x + "<br>" +
+    y + "<br>" +
+    z + "<br>" +
+    a + "<br>" +
+    $ + "<br>" +
+    $$$ + "<br>" +
+    $myMoney + "<br>" +
+    _lastName + "<br>" +
+    _x + "<br>" +
+    _100 + "<br>" 
+
+
+
+
+    ;// statement is ended here
+</script>
+
+
+
+</body>
+</html>
